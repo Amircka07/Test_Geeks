@@ -1,0 +1,37 @@
+
+.wrapper {
+    // margin-top: 340px;
+    // position: fixed; /* Фиксированное положение относительно экрана */
+    transform: translate(-50%, -50%); /* Смещение, чтобы учесть размеры окна */
+    display: flex; /* Чтобы разместить содержимое */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 513px;  
+    
+}
+
+.content { 
+    border: 1px solid #6b0e7b;
+    border-radius: 8px;
+    background: #000;
+    height: 538px;
+    width: 553px;
+    position: relative; 
+}
+.modal {
+    position: fixed;
+    top: 340px;
+    bottom: 513px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 443px;
+    margin-right: 444px;  
+  }
+  h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 205.5px;
+  }
